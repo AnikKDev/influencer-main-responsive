@@ -15,7 +15,9 @@ body{
 }
 
 
-/* header */
+/* header and top part */
+
+
 .header-left{
     display: flex;
     align-items: center;
@@ -166,6 +168,9 @@ body{
 
 
 /* Consumer-demand */
+
+
+
 .consumer-demand{
     color: white;
     /* width: 100%; */
@@ -224,9 +229,7 @@ body{
 
 }
 .read-more:hover a{
-    color:#E02C6D ;
-    
-    
+    color:#E02C6D ;   
 }
 
 
@@ -262,7 +265,7 @@ footer .footer-context{
 
 
 /* Responsive set-up */
-/* Mobile  */
+/* Mobile and Tab */
 
 
 @media (max-width:1250px){
@@ -298,13 +301,10 @@ footer .footer-context{
     } */
     .header-left{
         justify-content: center;
-    }
-   
+    }  
 
 }
-@media (max-width:1010px){
-    
-    
+@media (max-width:1010px){ 
     .top-right{
         justify-content: center;
     }
@@ -315,8 +315,6 @@ footer .footer-context{
         grid-template-columns: repeat(1,1fr );
 
     }
-
-
     .header-left{
         justify-content: center;
     }
@@ -331,3 +329,9 @@ footer .footer-context{
         justify-content: center;
     }
 }
+
+/* ======The End======
+===================== */
+
+/* =====================Thank You For Your Efforts and Keep The Good Works================== */
+/* ================================Wish You All The Best==================================== */
