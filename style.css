@@ -10,6 +10,7 @@ body{
     width: 1100px;
     
     margin: 0 auto;
+    padding-bottom: 45px;
 }
 
 /*======== top section========
@@ -122,4 +123,33 @@ body{
    justify-content: flex-end;
     color: #E02C6D;
     margin-top: 50px;
+}
+
+
+/* footer */
+
+.footer{
+    height: 228px;
+    background-color: #0A0826;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-context{
+    width: 268px;
+    text-align: center;
+    line-height: 29px;
+}
+.footer-context h3{
+    font-size: 1.3em;
+}
+.copyright{
+    font-size: 13px;
+}
+.social{
+    margin-top: 12px;
+}
+.icons{
+    padding: 0 10px;
 }
